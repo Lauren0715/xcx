@@ -1,0 +1,130 @@
+<!--pages/fd_info/fd_info.wxml-->
+<view class="box">
+  <view class="upbox" wx:key="FDMC" >
+     <view class="abox">
+        <view class="lbox">
+           <view class="mingcheng"><text>{{FDMC}}</text></view>
+           <view class="pingjia"><text>{{FDPJ}}</text></view>
+           <view class="huifulv"><text>{{FDHFL}}·回复率</text></view>
+           <view class="dizhi"><text>房源位于{{FDDZ}}</text></view>
+        </view>
+        <navigator url="/pages/fangong/fangong?FDMC={{item.FDMC}}">
+        <view class="rbox"><image src='http://localhost:8080/WEBPRO_18/tp/{{FDTP}}'></image></view>
+      </navigator> 
+     </view>
+     <view class="bbox">
+       <view class="pingfen"><text>{{FDPF}}</text></view>
+       <view class="x">
+       <view class="xing"><image src="../../images/shoucang/xingxing.png"></image></view>
+       <view class="xing"><image src="../../images/shoucang/xingxing.png"></image></view>
+       <view class="xing"><image src="../../images/shoucang/xingxing.png"></image></view>
+       <view class="xing"><image src="../../images/shoucang/xingxing.png"></image></view>
+       <view class="xing"><image src="../../images/shoucang/xingxing.png"></image></view>
+      </view>
+       <view class="pinglun"><text>{{FDPL}}条评价</text></view>
+       <view class="phone">
+         <view class="ap">
+         <image src="../../images/shoucang/shouji.png"></image>
+        </view>
+        <view class="bp">
+         <text>手机号</text>
+        </view>
+     </view>
+     </view>
+     <view class="scroll_box"> 
+    <scroll-view scroll-x>
+ 
+      <view class="item_list" >
+        相应迅速 9
+      </view>
+      <view class="item_list" >
+        盛情好客 9
+      </view>
+      <view class="item_list" >
+        干净整洁 9
+      </view>
+      <view class="item_list" >
+        时尚空间 8
+      </view>
+      <view class="item_list" >
+        贴心关怀 7
+      </view>
+      <view class="item_list" >
+        注重细节 7
+      </view>
+      <view class="item_list" >
+        注重细节 7
+      </view>
+      <view class="item_list" >
+        注重细节 7
+      </view>
+    </scroll-view>
+  </view>
+  </view>
+  <view class="line"></view>
+  
+
+ <view class='ticket-container'>
+    <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}"
+      scroll-top="{{scrollTop}}">
+      <!-- Tab布局 -->
+      <view class='title'>
+        <view class="{{0 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='0'>
+          <text>{{FYSL}}套房源</text>
+          <hr class="line-style"/>
+        </view>
+        
+        <view class="{{1 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='1'>
+          <text>{{FDPL}}条房客评价</text>
+          <hr class="line-style"/>
+        </view>
+      </view>
+
+      <swiper class='swiper' bindchange='pagechange' current='{{currentIndex}}'>
+        <swiper-item class='swiper'>
+          <view wx:for="{{list_data}}" wx:key="fylist">
+            <view class='downbox'>
+              <view class="photo"><image src='http://localhost:8080/WEBPRO_18/p/{{item.FYTP}}'></image></view>
+              <view class="room"><text>{{item.room}}</text></view>
+              <view class="address"><text>·{{item.FYDZ}}</text></view>
+              <view class="name"><text></text>{{item.FYMC}}</view>
+              <view class="score"><text>{{item.FYPF}}分</text></view>
+              <view class="common1"><text>·{{item.common}}条评论</text></view>
+              <view class="bb1"><text>{{item.bb1}}</text></view>
+              <view class="bb2"><text>{{item.bb2}}</text></view> 
+              <view class="x2">
+                 <view class="xing2"><image src="../../images/shoucang/xingxing.png"></image></view>
+                 <view class="xing2"><image src="../../images/shoucang/xingxing.png"></image></view>
+                 <view class="xing2"><image src="../../images/shoucang/xingxing.png"></image></view>
+                 <view class="xing2"><image src="../../images/shoucang/xingxing.png"></image></view>
+                 <view class="xing2"><image src="../../images/shoucang/xingxing.png"></image></view>
+              </view>
+              <view class="common2"><text>{{item.common}}条评论</text></view>
+              <view class="l"></view>
+              <view class="price"><text>¥{{item.FYJG}}</text></view>
+              <view class="night"><text>每晚</text></view>
+              <view class="tick"><image src="../../images/shoucang/duigouxuanzhong-2.png"></image></view>
+              <view class="discount"><text>{{item.discount}}租优惠</text></view>
+            </view>
+         </view>
+        </swiper-item>
+        <swiper-item class='swiper' class='swiper'>
+          <view wx:for="{{list_data2}}" wx:key="fklist">
+            <view class='downbox2'>
+              <view class="fktp"><image src='http://localhost:8080/WEBPRO_18/fk/{{item.FKTP}}'></image></view>
+              <view class="fkmc"><text>{{item.FKMC}}</text></view>
+              <view class="date"><text>{{item.year}}年{{item.month}}月</text></view>
+              <navigator url="/pages/fy_info/fy_info?FYMC={{item.FYMC}}">
+              <view class="fangzi"><text>{{item.FYMC}}</text></view>
+              </navigator>
+              <view class="pingjia2"><text>{{item.FKPJ}}</text></view>
+            </view> 
+           <view class="hr"></view> 
+          </view>  
+         
+        </swiper-item>
+      </swiper>
+    </scroll-view>
+</view>
+</view>
+

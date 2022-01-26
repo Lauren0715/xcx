@@ -1,0 +1,497 @@
+/* pages/fd_info/fd_info.wxss */
+.scroll_box{
+  width: 100%;
+  overflow: hidden;
+  padding: 20rpx;
+  background: #fff;
+  white-space: nowrap;
+  
+  }
+  .scroll_box scroll-view{
+    width: auto;
+    overflow:hidden;
+  }
+  .item_list
+  {
+    margin-top: 10px;
+  width: 70px;
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #f0efef;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 13px;
+  }
+.item_list text
+{
+  display: inline;
+  margin-left: 10px;
+  
+}
+  .abox
+  {
+    width:90%;
+    display: flex;
+   flex-direction: row;
+   align-items: center; 
+   margin: auto;
+  }
+  .lbox
+  {
+    width:70%;
+    display: flex;
+   flex-direction:column;
+   
+  }
+  .rbox
+  {
+  
+    margin-top: 10px;
+    display: flex;
+    margin-left: 20px;
+  }
+.rbox image
+{
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+  .mingcheng
+  {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    height: 30px;
+    margin-top: 10px;
+   
+  }
+  .pingjia
+  {
+    display: flex;
+    font-size: 14px;
+    width: 60px;
+    height: 10px;
+    margin-top: 10px;
+    
+    
+  }
+  .huifulv
+  {
+    display: flex;
+    color: rgb(12, 12, 12);
+    font-size: 12px;
+    margin-top:-8px ;
+    margin-left: 60px;
+    height: 20px;
+   
+  }
+  .dizhi
+  {
+    display: flex;
+    color: rgb(12, 12, 12);
+    font-size: 12px;
+    height: 20px;
+    
+  }
+  .bbox
+  {
+    width: 90%;
+    height: 80px;
+    border-style: solid;
+    margin-left: 23px;
+    display: flex;
+   flex-direction: row;
+   margin-top:30px;
+   border-width:2px;
+   border-radius: 10px;
+   border-color: rgb(250, 187, 188);
+   border-style: inherit;
+   box-shadow: 1px 5px 20px #e06769a1;
+   
+  }
+  .pingfen
+  {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #df5d5f;
+    display: flex;
+    width: 100px;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .x
+  {
+    width: 30%;
+    height: 20px;
+    display: flex;
+    margin-top: 30px;   
+  }
+  .xing
+  {
+    display: flex;
+    width: 11px;
+  }
+  .xing image
+  {
+    width:9px;
+    height: 9px;
+    margin-left: -60px;
+  }
+  .pinglun text
+  {
+    
+    display: flex;
+    font-size: 11px;
+    color: rgb(88, 88, 88);
+    margin-left: -171px;
+    margin-top: 40px;
+    font-weight: 400;
+  }
+  .ap image
+  {
+    display: flex;
+    width: 13px;
+    height: 12px;
+    margin-top:3px;
+    margin-left: 3px;
+  }
+  .phone
+  {
+    display: flex;
+    background-color: #df5d5f50;
+    width: 55px;
+    height: 20px;
+    margin: auto;
+    border-radius: 10px;
+   
+    
+  }
+  .bp   
+  { 
+    display: flex;
+    width: 60px;
+    font-size: 12px;
+    margin-top:0px;
+  }
+  .line
+  {
+    margin-top: 5px;
+    background-color: #f0efef;
+    width: 100%;
+    height: 8px;
+  }
+
+   .container {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+   
+  .title {
+    width: 100%;
+    height: 88rpx;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+   
+  .title-sel {
+    color: #24272c;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-sel  .line-style{
+    background: #fff;
+    height: 6rpx;
+    width: 40rpx;
+    position: relative;
+    margin-top: 10rpx;
+  }
+   
+  .title-sel-selected{
+    color: #df5d5f;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-sel-selected .line-style{
+    background: #df5d5f;
+    height: 6rpx;
+    width: 90rpx;
+    position: relative;
+    margin-top: 10rpx;
+  }
+   
+  .swiper {
+    height: 600px;
+    width: 90%;
+    flex: 1;
+    overflow: scroll;
+    margin: 0 auto;
+  }
+   
+  .record-item {
+    margin-top: 10rpx;
+    background-color: white;
+    padding-bottom: 5rpx;
+    padding-top: 5rpx;
+    font-size: 30rpx;
+  }
+  .photo image
+  {
+    width: 100%;
+    height:200px;
+    display: flex;
+    margin: auto;
+    
+  }
+  .room
+  {
+    margin: 10px;
+    display: flex;
+    width: 20%;
+    height: 10px;
+    font-size: 15px;
+    color: #555353;
+  }
+.downbox
+{
+    display: flex;
+  margin-left: 10px;
+
+  flex-direction: column;
+  margin-top: 30px;
+  height:380px;
+  border-width: 1px;
+  width: 95%;
+  border-style: inherit;
+  box-shadow: 1px 15px 30px #d8d6d6d5;
+}
+.address
+{
+  display: flex;
+  width: 70%;
+  height: 10px;
+  font-size: 13px;
+  color: hsl(0, 1%, 33%);
+  margin-top: -19px;
+  margin-left:70px;
+}
+.name
+{
+  display: flex;
+  width: 90%;
+  height: 10px;
+  font-size: 16px;
+  margin-top:10px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.score text
+{
+  display: flex;
+  height: 10px;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 0px;
+
+}
+.score
+{
+  background-color: hsla(49, 52%, 52%, 0.459);
+  display: flex;
+  width: 13%;
+  height: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #4e420a;
+  font-size: 22px;
+  border-radius: 4px;
+}
+.common1
+{
+  background-color: hsla(49, 52%, 52%, 0.459);
+  display: flex;
+  width: 22%;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 60px;
+  color: #4e420a;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.bb1
+{
+  background-color: hsla(49, 52%, 52%, 0.377);
+  display: flex;
+  width: 17%;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 150px;
+  color: #4e420a;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.bb2
+{
+  background-color: #c4ad4560;
+  display: flex;
+  width: 17%;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 220px;
+  color: #4e420a;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.x2
+  {
+    width: 30%;
+    height: 20px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .xing2
+  {
+    display: flex;
+    width: 11px;
+  }
+  .xing2 image
+  {
+    width:10px;
+    height: 10px;
+  }
+  .common2
+  {
+    display: flex;
+    height: 10px;
+    font-size: 12px;
+    margin-left: 70px;
+    margin-top:-23px;
+    color: rgb(46, 46, 46);
+  }
+  .l
+  {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(228, 228, 228);
+    margin-top: 20px;
+  }
+  .price
+  {
+    width: 10%;
+    display: flex;
+    height: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgb(46, 46, 46);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  .night
+  {
+    width:10%;
+    display: flex;
+    height: 10px;
+    font-size: 13px;
+    margin-left: 60px;
+    color: rgb(94, 94, 94);
+    margin-top: -10px;
+  }
+  .discount
+  {
+    width:30%;
+    display: flex;
+    height: 10px;
+    font-size: 13px;
+    margin-left: 290px;
+    color: rgb(94, 94, 94);
+    margin-top: -14px;
+  }
+  .tick
+  {
+    display: flex;
+    margin-left: 275px;
+    margin-top:-7px ;
+  }
+  .tick image
+  {
+    width:10px;
+    height: 10px;
+  }
+  .swiper
+  {
+    display: grid;
+    height: 100vh;
+  
+  
+  }
+  .downbox2
+{
+  margin-left: 20px;
+  flex-direction: column;
+  margin-top: 30px;
+  height:380px;
+  border-width: 1px;
+  width: 90%;
+  height: auto;
+}
+.fktp image
+{
+  height: 40px;
+  width: 40px;
+border-radius: 50%;
+}
+.fkmc
+{
+  display: flex;
+  width: 30%;
+  font-size: 14px;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+.date
+{
+  display: flex;
+  font-size: 12px;
+  color: hsl(219, 8%, 33%);
+  margin-left: 50px;
+}
+.fangzi 
+{
+  display: flex;
+  font-size:11px;
+  margin-top:5px ;
+  color: #69580d;
+  margin-left: 10px;
+}
+.pingjia2
+{
+width: 90%;
+height: auto;
+margin-left: 10px;
+
+}
+.pingjia2 text
+{
+  font-size: 12px;
+}
+.hr
+{
+  width: 90%;
+  height: 1px;
+  background-color: hsl(0, 2%, 91%);
+  margin-left: 10px;
+  margin-top: auto;
+}

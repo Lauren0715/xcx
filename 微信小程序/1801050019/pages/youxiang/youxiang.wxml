@@ -1,0 +1,11 @@
+<!--pages/youxiang/youxiang.wxml-->
+<view class="con">
+  <view class="title">为帐号绑定新的邮箱地址，绑定后可用该邮箱地址登陆</view>
+<form bindsubmit="formsubmit" name="phone">
+  <view class="text">邮箱地址</view>
+  <view class="phone"><input name="num" bindinput="accountInput" /></view>
+  <view class="hr"></view>
+<button class="btn" disabled="{{disabled}}"  form-type='submit'>确定</button>
+</form>
+
+</view>

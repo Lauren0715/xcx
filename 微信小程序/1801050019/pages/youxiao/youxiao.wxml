@@ -1,0 +1,18 @@
+<!--pages/youxiao/youxiao.wxml-->
+<!--pages/dingdan/dingdan.wxml-->
+<view class="con">
+  <view class="box" wx:for="{{list_data}}"  wx:key="haha">
+   
+    <view class="left">
+      <view class="title">{{item.location}}的整套房子/公寓</view>
+      <view class="time">{{item.time}}・{{item.people}}位</view>
+      <view class="box2">
+        <view class="situation">{{item.situation}}</view>
+        <view class="price">￥{{item.price}}</view>
+      </view>
+    </view>
+    <view class="right"><image src="../../images/icon/grzx/dingdan/{{item.tupian}}.JPG" style="height:100px;width:150px"></image></view>
+  
+  </view>
+</view>
+

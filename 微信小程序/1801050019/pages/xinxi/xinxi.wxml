@@ -1,0 +1,28 @@
+<!--pages/xinxi/xinxi.wxml-->
+<view class="con">
+  <form bindsubmit="formsubmit" name="phone">
+    <view class="box">
+      <view class="left">
+        姓名
+      </view>
+      <view class="right"><input name="name" bindinput="accountInput" placeholder="(必填)与身份证上的名字一致" />
+
+      </view>
+    </view>
+    <view class="box">
+      <view class="left">
+        身份证
+      </view>
+      <view class="right"><input name="num" bindinput="accountInput" placeholder="(必填)输入身份证号码" />
+
+      </view>
+    </view>
+    <view class="detail">
+      <text >根据有关部门规定，所有前往中国的旅客都必须提供相关个人信息。作为中国居民，您的信息将由爱迎宾中国存储并处理。完成本次预约，您同意爱迎宾中国可以向中国政府披露您的信息而不向您提供进一步通知。\n</text>
+      <text>您所填的信息将不会与房东分享。房客信息将由爱迎宾中国妥善保管，以便下次预定时使用。</text>
+    </view>
+    <navigator url="../../pages/zhifu2/zhifu2?id={{id}}">
+    <button class="btn" disabled="{{disabled}}" form-type='submit'>添加</button></navigator>
+  </form>
+
+</view>

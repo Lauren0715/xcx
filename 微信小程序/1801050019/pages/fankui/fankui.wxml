@@ -1,0 +1,52 @@
+<!--pages/fankui/fankui.wxml-->
+  <view class="con"><view class="title">请选择反馈类型</view>
+<view class="type">向开发者反馈</view>
+
+<navigator url="../../pages/gnyc/gnyc">
+  <view class="box">
+    
+    <view class="left">
+    <view class="name">功能异常</view>
+    <view class="tips">请向开发者反馈小程序功能异常问题。</view>
+  </view>
+  <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view></navigator>
+ 
+  <navigator url="../../pages/zfwt/zfwt"><view class="box">
+    <view class="left">
+    <view class="name">支付问题</view>
+    <view class="tips">可向开发者反馈你在支付过程中遇到的问题。</view>
+  </view>
+  <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view></navigator>
+
+  <navigator url="../../pages/cpjy/cpjy"><view class="box">
+    
+    <view class="left">
+    <view class="name">产品建议</view>
+    <view class="tips">请向开发者反馈你对产品的相关意见。</view>
+  </view>
+  <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+</view> </navigator> 
+  
+  <view class="gap"></view>
+
+  
+  
+<view class="type">向微信平台投诉</view>
+
+
+<navigator url="../../pages/wgjb/wgjb">
+  <view class="box">
+    
+  <view class="left">
+    <view class="name">违规举报</view>
+    <view class="tips">若遇色情、诱导、骚扰、欺诈、恶意营销、违法犯罪等情况，可向微信举报。</view>
+  </view>
+  <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  
+   </view></navigator>
+
+  </view>
+  
+

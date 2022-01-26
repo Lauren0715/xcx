@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript">
+x=0;
+$(document).ready(function(){
+  $("div").scroll(function() {
+    $("span").text(x+=1);
+  });
+});
+</script>
+</head>
+<body>
+<p>请试着滚动 DIV 中的文本：</p>
+<div style="width:200px;height:100px;overflow:scroll;">text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. 
+<br /><br />
+text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text. text.</div>
+<p>滚动了 <span>0</span> 次。</p>
+</body>
+</html>

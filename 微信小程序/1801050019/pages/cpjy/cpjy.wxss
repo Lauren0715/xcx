@@ -1,0 +1,56 @@
+.con{
+  width:90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.type{
+  padding-bottom: 30px;
+  font-size: 20px;
+  color:#e27171;
+  font-weight: 300;
+ padding-top: 10px;
+  
+
+}
+.word{
+  border:1px solid rgb(201, 201, 201);
+  border-radius: 10px;
+  width:90%;
+  padding:5% 5%;
+}
+.box{
+  width:90%;
+  margin-left: 5%;
+  font-size: 18px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  
+ 
+}
+.phone{
+  width:70%;
+  text-align: center;
+  border-bottom: rgb(219, 219, 219) 1px solid;
+}
+.title{
+ 
+  width:25%;
+
+}
+
+.btn{
+  width: 90%;
+  margin-top:40px;
+  color: #ffffff;
+  background-color: #e27171;
+  border-radius: 10px;
+  box-shadow: 15rpx 5rpx 25px gainsboro;
+
+
+}
+.btn::after {
+  border-radius: 10px;
+  border: 0;
+}

@@ -1,0 +1,5 @@
+<!--pages/bag/bag.wxml-->
+<view class="empty">
+  <title>Your bag is empty</title>
+  <button class="btn" bindtap="shopbtn">Continue Shopping</button>
+</view>

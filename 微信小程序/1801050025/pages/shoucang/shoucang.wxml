@@ -1,0 +1,8 @@
+<!--pages/airplane/airplane.wxml-->
+<view class="beijing">
+ 
+<button bindtap="mapViewTap" style="margin:10px">查看地图</button>
+<button bindtap="MapView" style="margin:10px">选择位置</button>
+</view>
+
+

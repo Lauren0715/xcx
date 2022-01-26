@@ -1,0 +1,40 @@
+<!--pages/message/message.wxml-->
+<view class="con">
+  <navigator url="../../pages/liaotian/liaotian">
+<view class="box">
+<view class="head"><image src="../../images/icon/message/1.jpg" style="width:60px;height:60px;border-radius:50%"></image></view>
+<view class="box2">
+  <view class="name">Billkin</view>
+  <view class="message">好哦！</view>
+  <view class="time">刚刚</view>
+</view>
+<view class="room"><image src="../../images/icon/message/room1.jpg" style="width:75px;height:55px;"></image></view>
+</view></navigator>
+<view class="box">
+  <view class="head"><image src="../../images/icon/message/2.jpg" style="width:60px;height:60px;border-radius:50%"></image></view>
+<view class="box2">
+  <view class="name">比尔金</view>
+  <view class="message">好的，没关系，您先考虑一下</view>
+  <view class="time">一天前</view>
+</view>
+<view class="room"><image src="../../images/icon/message/room2.jpg" style="width:75px;height:55px;"></image></view>
+</view>
+<view class="box">
+<view class="head"><image src="../../images/icon/message/3.jpg" style="width:60px;height:60px;border-radius:50%"></image></view>
+<view class="box2">
+  <view class="name">PP</view>
+  <view class="message">请问这个房子离地铁站远吗，因为行李太多了不太方便</view>
+  <view class="time">一天前</view>
+</view>
+<view class="room"><image src="../../images/icon/message/room3.jpg" style="width:75px;height:55px;"></image></view>
+</view>
+<view class="box">
+  <view class="head"><image src="../../images/icon/message/4.jpg" style="width:60px;height:60px;border-radius:50%"></image></view>
+<view class="box2">
+  <view class="name">林皮皮</view>
+  <view class="message">最近的商区只需要步行五分钟即可到达，楼下有便利店，公交站和地铁站都只需步行五分钟。</view>
+  <view class="time">一周前</view>
+</view>
+<view class="room"><image src="../../images/icon/message/room4.jpg" style="width:75px;height:55px;"></image></view>
+</view>
+</view>

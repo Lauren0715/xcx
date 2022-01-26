@@ -1,0 +1,222 @@
+<view class="haibao">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:250px;">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" style="width:100%;height:250px;"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="content">
+  <view class="navbg"></view>
+  <view class="abox">
+    <view class="box1">
+      <view class="p"><image src="../../images/shoucang/dingwei.png" ></image></view>
+      <view class="w"><text>珠海市</text></view>
+    </view>
+    <view class="hr"></view>
+    <view class="box1">
+      <view class="p"><image src="../../images/shoucang/rili.png" ></image></view>
+      <view class="w"><text>12月28日 - 12月29日</text></view>
+  </view>
+  <view class="hr"></view>
+    <view class="box1">
+      <view class="p"><image src="../../images/shoucang/sousuo.png" ></image></view>
+      <view class="w2"><text>景点/地址</text></view>
+    </view>
+  </view>
+  <view class="search"><text>搜索房源</text></view>
+
+    <view class="icon">
+    <view class="item1">
+      <view>
+        <image src="../../images/shoucang/zuofan.png" style="width:48px;height:48px;"></image>
+      </view>
+      <view class="menu">可以做饭</view>
+    </view>
+    <view class="item">
+      <view>
+        <image src="../../images/shoucang/xunzhang.png" style="width:40px;height:40px;"></image>
+      </view>
+      <view class="menu">整个房源</view>
+    </view>
+    <view class="item">
+      <view>
+        <image src="../../images/shoucang/fangzi.png" style="width:40px;height:40px;"></image>
+      </view>
+      <view class="menu">超赞房东</view>
+    </view>
+    <view class="item">
+      <view>
+        <image src="../../images/shoucang/liwu.png" style="width:40px;height:40px;"></image>
+      </view>
+      <view class="menu">全面抽奖</view>
+    </view>
+  </view>
+  <view class="continue"><text>继续完成您的续订</text></view>
+  <view class="scroll_box"> 
+    <scroll-view scroll-x>
+
+   
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/001.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚</text></view>
+      </view>
+
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/002.jpg" ></image></view>
+        <view class="fymc"><text>【一房一消毒】灵隐寺旁</text></view>
+        <view class="fyjg"><text>¥388每晚</text></view>
+      </view>
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/003.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚</text></view>
+      </view>
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/004.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚</text></view>
+      </view>
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/005.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚</text></view>
+      </view>
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/006.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚</text></view>
+      </view>
+      <view class="item_list" >
+        <view class="fytp"><image src="../../images/shoucang/007.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚</text></view>
+      </view>
+      <view class="item_list" >
+        <view class="fytp"> <image src="../../images/shoucang/008.jpg" ></image></view>
+        <view class="fymc"><text>【灰色空间】环高空夜景</text></view>
+        <view class="fyjg"><text>¥198每晚 </text></view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="kuanian"><text>跨年特惠房源</text></view>
+  <view class="pingzhi"><text>品质房源，低至五折</text></view>
+
+  <view class="scroll_box1"> 
+    <scroll-view scroll-x>
+ 
+      <view class="item_list2" >
+        <text>天津</text>
+      </view>
+      <view class="item_list1" >
+        <text>上海</text>
+      </view>
+      <view class="item_list1" >
+        <text>成都</text>
+      </view>
+      <view class="item_list1" >
+        <text>厦门</text>
+      </view>
+      <view class="item_list1" >
+        <text>北京</text>
+      </view>
+      <view class="item_list1" >
+        <text>重庆</text>
+      </view>
+      <view class="item_list1" >
+        <text>广州</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="bigbox">
+    <view class="line1">
+      <view class="a">
+      <view class="a1">
+       <image src="../../images/shoucang/003.jpg" ></image></view>
+        <view class="a2"><text>九眼桥太古里高层超美江景公寓</text></view>
+        <view class="a3"><text>¥348每晚 </text></view>
+      </view>
+      <view class="a">
+        <view class="a1">
+       <image src="../../images/shoucang/012.jpg" ></image></view>
+        <view class="a2"><text>花园式古宅改建阁楼阳光房</text></view>
+        <view class="a3"><text>¥283每晚 </text></view>
+      </view>
+    </view>
+    <view class="line1">
+      <view class="a">
+      <view class="a1">
+       <image src="../../images/shoucang/013.jpg" ></image></view>
+        <view class="a2"><text>九眼桥太古里高层超美江景公寓</text></view>
+        <view class="a3"><text>¥348每晚 </text></view>
+      </view>
+      <view class="a">
+        <view class="a1">
+       <image src="../../images/shoucang/014.jpg" ></image></view>
+        <view class="a2"><text>花园式古宅改建阁楼阳光房</text></view>
+        <view class="a3"><text>¥283每晚 </text></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="kuanian"><text>深圳的热门地标</text></view>
+  <view class="scroll_box1"> 
+    <scroll-view scroll-x>
+ 
+      <view class="item_list2" >
+        <text>会展</text>
+      </view>
+      <view class="item_list1" >
+        <text>万象</text>
+      </view>
+      <view class="item_list1" >
+        <text>深大</text>
+      </view>
+      <view class="item_list1" >
+        <text>大芬</text>
+      </view>
+      <view class="item_list1" >
+        <text>大鹏</text>
+      </view>
+      <view class="item_list1" >
+        <text>大芬</text>
+      </view>
+      <view class="item_list1" >
+        <text>大鹏</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="bigbox">
+    <view class="line1">
+      <view class="a">
+      <view class="a1">
+       <image src="../../images/shoucang/004.jpg" ></image></view>
+        <view class="a2"><text>九眼桥太古里高层超美江景公寓</text></view>
+        <view class="a3"><text>¥348每晚 </text></view>
+      </view>
+      <view class="a">
+        <view class="a1">
+       <image src="../../images/shoucang/005.jpg" ></image></view>
+        <view class="a2"><text>花园式古宅改建阁楼阳光房</text></view>
+        <view class="a3"><text>¥283每晚 </text></view>
+      </view>
+    </view>
+    <view class="line1">
+      <view class="a">
+      <view class="a1">
+       <image src="../../images/shoucang/006.jpg" ></image></view>
+        <view class="a2"><text>九眼桥太古里高层超美江景公寓</text></view>
+        <view class="a3"><text>¥348每晚 </text></view>
+      </view>
+      <view class="a">
+        <view class="a1">
+       <image src="../../images/shoucang/011.jpg" ></image></view>
+        <view class="a2"><text>花园式古宅改建阁楼阳光房</text></view>
+        <view class="a3"><text>¥283每晚 </text></view>
+      </view>
+    </view>
+  </view>
+
+</view>

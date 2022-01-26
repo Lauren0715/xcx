@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="./home.css"/>
+    <meta charset="utf-8">
+    <title>WebApp_01</title>
+    <script src="jquery.js" type="text/javascript"></script>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <style>
+        input{
+            outline: none;
+        }
+        .login2{
+            background: #ccc;
+        }
+        @media (min-width: 768px) {
+            input[type=password] {
+                width: 65%;
+                margin: auto;
+                padding: 12px 20px;
+                border: 1px solid #515151;
+                border-radius: 50px;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 500;
+                box-sizing: border-box;
+            }
+        }
+        @media screen and (min-width: 1000px) {
+            input[type=password] {
+                width: 45%;
+                margin: auto;
+                padding: 12px 20px;
+                border: 1px solid #515151;
+                border-radius: 50px;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 500;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+ <div class="body">
+                <div class="login-header">
+                        <a class="login-toggle" href="home.html"><img src="/lecture/stu/assets/img/ic_back_gray.png"/></a>
+                        <h1>登录</h1>
+                    </div>
+            <div class="login-container">
+                <div class="loginpic"><img src="/lecture/stu/assets/img/logo.png"></div>
+                <div class="login-content">
+                    <div class="login-line">
+                        <div class="logintxt">
+                        <h1>登  录</h1>
+                        </div>
+                        
+                    </div>
+                    <div class="number">
+                            <input type="text" id="log" name="log" value="123" placeholder="学号">
+                    </div>
+                    <div class="pwd">
+                            <input type="password" id="pwd"  value="456" name="password" placeholder="密码">
+                    </div>
+                    <button class="btn-login">
+                       <a><p id="login">登  录</p> </a>
+                    </button>
+                    <div class="bottom">
+                    <a href="WebApp_list.html">忘记密码？</a></div>
+                </div>
+            </div>
+            
+        </div>
+        <script>
+          $(document).ready(function(){
+        	$('#login').click(function(){
+        		//alert($("#pwd").val());
+        		 $.ajax({
+                    type:"GET",
+                    url:"http://localhost:8080/WEBPRO_18/xcx_login?log="+$("#log").val()+"&pwd="+$("#pwd").val(),
+                    dataType:"json",
+                    success:function(data){
+                        	if(data.code==0){
+                        		alert("登录失败");                                
+                        	}else{
+                        		alert(data.code); 
+                        		$(window).attr('location','./home.html');
+                            }
+                        },
+                    error:function(jqXHR){
+                        console.log("Error: "+jqXHR.status);
+                    }
+                });
+            });
+        });       
+</script>
+</body>
+</html>

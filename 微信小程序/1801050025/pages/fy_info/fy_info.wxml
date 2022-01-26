@@ -1,0 +1,150 @@
+<!--pages/fy_info/fy_info.wxml-->
+<navigator url="../../pages/airplane/airplane" open-type='switchTab'>
+<view class="fanhui"><image src="../../images/shoucang/fanhui.png"></image></view>
+</navigator>
+<view class="box">
+<view class="fbox" wx:key="FYMC" >
+     <view class="tupian"><image src='http://localhost:8080/WEBPRO_18/p/{{FYTP}}'></image></view>
+     <view class="b">
+       <view bindtap='onLike' class="heart">
+        <image src="{{like?icon_like:icon_unlike}}" class="picking" animation="{{animation}}"></image>
+        </view>
+     </view>
+  <button class="btn" disabled="{{disabled}}" type="{{btnstate}}"  form-type='submit'><text>进行预订</text></button>
+     <view class="hr1"></view> 
+     <view class="room"><text>{{room}}</text></view>
+     <view class="address"><text>·{{FYDZ}}</text></view>
+     <view class="name"><text>{{FYMC}}</text></view>
+     <view class="zonghe"><text>{{FYPF}}分·{{common}}条评论</text></view>
+     <view class="bb1"><text>{{bb1}}</text></view>
+     <view class="bb2"><text>{{bb2}}</text></view> 
+     <view class="fangjian"><text>{{FJSL}}间卧室·</text></view>
+     <view class="bed"><text>{{bed}}张床·</text></view>
+     <view class="toilet"><text>{{toilet}}间卫生间·</text></view>
+     <view class="people"><text>最多住{{FKSL}}人</text></view>
+     <view class="fyjs"><text>{{FYJS}}</text></view>
+     <view class="hr2"></view> 
+</view> 
+<view class="home"><image src="../../images/shoucang/home.png"></image><text>整个房源</text> <p>独享所有空间，无需与他人共用</p></view>
+<view class="tick"><image src="../../images/shoucang/tick.png"></image><text>入住/退房</text><p>入住时间下午2:00后、退房时间中午12:00</p></view>
+<view class="key"><image src="../../images/shoucang/key.png"></image><text>自助入住</text><p>通过密码锁自助入住</p></view>
+<view class="hr3"></view> 
+<view class="sheshi"><text>便利设施</text></view>
+<view class="scroll_box"> 
+    <scroll-view scroll-x>
+      <view class="item_list" >
+        <image src="../../images/shoucang/jiaqi.png"></image><text>行李寄存</text>
+      </view>
+      
+      <view class="item_list" >
+        <image src="../../images/shoucang/wifi.png"></image><text>无线网络</text>
+      </view>
+      
+      <view class="item_list" >
+        <image src="../../images/shoucang/menjin.png"></image><text>独立入口</text>
+      </view>
+      <view class="item_list" >
+        <image src="../../images/shoucang/nuanqi.png"></image><text>暖气</text>
+      </view>
+      <view class="item_list" >
+        <image src="../../images/shoucang/xuehua.png"></image><text>空调</text>
+      </view>
+      <view class="item_list" >
+        <image src="../../images/shoucang/dianti.png"></image><text>电梯</text>
+      </view>
+      <view class="item_list" >
+        <image src="../../images/shoucang/xiyiji.png"></image><text>洗衣机</text>
+      </view>
+      <view class="item_list" >
+        <image src="../../images/shoucang/dianshi.png"></image><text>电视</text>
+      </view>   
+    </scroll-view>
+  </view>
+  <view class="hr4"></view> 
+  <view class="fangke"><text>房客评价</text></view>
+    <view class='pj'>
+      <view class="fktp"><image src='http://localhost:8080/WEBPRO_18/fk/{{FKTP}}'></image></view>
+      <view class="fkmc"><text>{{FKMC}}</text></view>
+      <view class="date"><text>{{year}}年{{month}}月</text></view>
+      <view class="pingjia2"><text>{{FKPJ}}</text></view>
+    </view> 
+    <navigator url="../../pages/pingjia/pingjia" >
+    <view class="check"><text>查看全部房客评价</text></view></navigator>
+  <view class="hr5"></view> 
+  <view class="fywz"><text>房源位置</text></view>
+  <view class="dz"><text>{{FYDZ}}</text></view>
+  <view class="weizhi"><text>{{weizhi}}</text></view>
+
+
+  <view class="map_container">
+  <map class='map' longitude='{{longitude}}' latitude='{{latitude}}' scale='{{scale}}' markers='{{markers}}' controls="{{controls}}" bindcontroltap="bindcontroltap" polyline='{{polyline}}' circles="{{circles}}" bindmarkertap='bindmarkertap' bindcontroltap='bindcontroltap'
+ show-location></map>
+  </view>
+
+<view class='list-guide'>
+<!-- 这里的坐标本应该是从服务器获取数据的,这时丈先写死在页面上了 -->
+  <view bindtap="onGuideTap" data-latitude='39.92392' data-longitude='116.411885' data-bankName='最高人民检察院'><image src='../../images/shoucang/jia.png' class='list-guide-imgae'></image>
+  </view>
+</view>
+
+<view class="hou"><image src="../../images/shoucang/location.png"></image><text>预定之后将显示详细地址</text></view>
+
+<view class="hr5"></view> 
+<view class="box1">
+  <view class="first">
+      <view class="paizi1"><image src="../../images/shoucang/ditie.png"></image></view>
+      <view class="wenzi"><text>地铁站</text></view>
+  </view>
+  <view class="second">
+      <view class="mrt1"><text>{{mrt1}}</text></view>
+      <view class="m"><text>距房源大约{{m1}}米</text></view>
+  </view>
+  <view class="third">
+      <view class="mrt2"><text>{{mrt2}}</text></view>
+      <view class="m"><text>距房源大约{{m2}}米</text></view>
+  </view>
+</view>
+
+<view class="hr5"></view>
+
+<view class="box1">
+  <view class="first">
+      <view class="paizi2"><image src="../../images/shoucang/jingdian.png"></image></view>
+      <view class="wenzi"><text>景点</text></view>
+  </view>
+  <view class="second">
+      <view class="mrt1"><text>{{place1}}</text></view>
+      <view class="m"><text>距房源大约{{p1}}米</text></view>
+  </view>
+  <view class="third">
+      <view class="mrt2"><text>{{place2}}</text></view>
+      <view class="m"><text>距房源大约{{p2}}米</text></view>
+  </view>
+</view>
+
+<view class="hr5"></view>
+
+<view class="box1">
+  <view class="first">
+      <view class="paizi3"><image src="../../images/shoucang/feiji.png"></image></view>
+      <view class="wenzi"><text>机场/车站</text></view>
+  </view>
+  <view class="second">
+      <view class="mrt1"><text>{{station1}}</text></view>
+      <view class="m"><text>距房源大约{{s1}}米</text></view>
+  </view>
+  <view class="third">
+      <view class="mrt2"><text>{{station2}}</text></view>
+      <view class="m"><text>距房源大约{{s2}}米</text></view>
+  </view>
+</view>
+
+<view class="hr5"></view>
+
+<view class="fdjs"><text>房东介绍</text></view>
+<view class="w">
+<view class="fdtp"><image src='http://localhost:8080/WEBPRO_18/fk/{{FKTP}}'></image></view>
+<view class="fdmz"><text>Coco</text></view>
+<view class="q"><text>307条评价·已验证·超赞房东</text></view>
+<view class="hr5"></view></view>
+</view>        

@@ -1,0 +1,19 @@
+<!--pages/fankuiye/fankuiye.wxml-->
+<form bindsubmit='formSubmit' bindreset="formReset">
+<view class="con">
+  <view class="type">支付问题</view>
+<textarea class="word" name="detail" placeholder="请填写10个以上的问题描述以便我们提供更好的帮助" placeholder-style="gray">
+</textarea>
+<view class="box">
+  <view class="title">联系方式</view>
+<view class="phone">
+  <input name="phone" bindinput="accountInput"/>
+</view>
+</view>
+<button form-type='submit' class="btn" disabled="{{disabled}}">提交</button>
+</view>
+
+</form>
+
+
+

@@ -1,0 +1,22 @@
+<!--pages/ziliao/ziliao.wxml-->
+<view class="con">
+
+ 
+ <view class="box"> <navigator url="../../pages/shouji/shouji"> <view class="title">手机号
+   <image src="../../images/icon/grzx/xiugai.png" style="width:18px;height:20px;margin-left:10px;"></image>
+  </view> 
+  <view class="num">{{phone}}</view></navigator>
+</view> 
+<!-- 
+<view class="hr"></view> -->
+
+<view class="box">
+  <navigator url="../../pages/youxiang/youxiang">
+  <view class="title">邮箱地址
+    <image src="../../images/icon/grzx/xiugai.png" style="width:18px;height:20px;margin-left:10px;"></image>
+</view>
+  <view class="num">{{email}}</view></navigator>
+</view>
+<!-- <view class="hr"></view> -->
+</view>
+

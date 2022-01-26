@@ -1,0 +1,12 @@
+<!--pages/shouji/shouji.wxml-->
+<view class="con">
+  <view class="title">为帐号绑定新的手机号码，绑定后可用该手机号码登陆</view>
+<form bindsubmit="formsubmit" name="phone">
+  <view class="text">手机号码</view>
+  <view class="phone"><input name="num" bindinput="accountInput" /></view>
+  <view class="hr"></view>
+<button class="btn" disabled="{{disabled}}"  form-type='submit'>确定</button>
+</form>
+
+</view>
+

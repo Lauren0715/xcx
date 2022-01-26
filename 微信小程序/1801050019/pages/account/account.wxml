@@ -1,0 +1,114 @@
+<view class="amountBg">
+   <view class="img">
+      <open-data type="userAvatarUrl"></open-data>
+   </view>
+   <view class="account">
+
+      <open-data type="userNickName"></open-data>
+   </view>
+   <navigator url="../../pages/ziliao/ziliao">
+      <view class="set">个人资料管理</view>
+   </navigator>
+
+
+</view>
+
+<view class="content">
+   <view class="box1">
+      <view class="hr2"></view>
+      <view class="list">我的房源订单</view>
+      <view class="order">
+
+         <view class="desc">
+            <navigator url="../../pages/dingdan/dingdan">
+               <view class="tupian">
+                  <image src="../../images/icon/grzx/weibiaoti-.png" style="width:35px;height:35px;"></image>
+               </view>
+               <view class="name">全部订单</view>
+            </navigator>
+         </view>
+
+
+         <view class="desc">
+            <navigator url="../../pages/youxiao/youxiao">
+               <view class="tupian">
+                  <image src="../../images/icon/grzx/success.png" style="width:35px;height:35px"></image>
+               </view>
+               <view class="name">有效订单</view>
+            </navigator>
+         </view>
+
+
+         <view class="desc">
+            <navigator url="../../pages/unpay/unpay">
+               <view class="tupian">
+                  <image src="../../images/icon/grzx/daizhifu.png" style="width:35px;height:35px;padding-left:8px;">
+                  </image>
+               </view>
+               <view class="name">待支付订单</view>
+            </navigator>
+         </view>
+
+      </view>
+      <view class="hr2"></view>
+      <view class="list">工具</view>
+      <view class="order">
+         <view class="desc" bindtap="showCallPhone" data-phone="1234567890">
+            <view class="tupian">
+               <image src="../../images/icon/grzx/kefu.png" style="width:40px;height:40px;padding-bottom:5px"></image>
+            </view>
+            <view class="name">联系客服</view>
+         </view>
+         <view class="desc">
+            <navigator url="../../pages/fankui/fankui">
+               <view class="tupian">
+                  <image src="../../images/icon/grzx/wentifankui.png" style="width:35px;height:35px;padding-bottom:8px">
+                  </image>
+               </view>
+               <view class="name">反馈</view>
+            </navigator>
+         </view>
+         <view class="desc">
+            <navigator url="../../pages/about/about">
+            <view class="tupian">
+               <image src="../../images/icon/grzx/dengpao.png" style="width:40px;height:40px;padding-bottom:3px;padding-left:20px">
+               </image>
+            </view>
+            <view class="name">关于Tohome</view>
+            </navigator>
+         </view>
+      </view>
+      <view class="hr2"></view>
+      <view class="clear"></view>
+   </view>
+
+
+
+
+   <view class="item">
+
+
+      <view class="itemName">
+         Help
+      </view>
+
+   </view>
+   <view class="hr"></view>
+   <view class="item">
+
+      <view class="itemName">
+         Teems&Conditions
+      </view>
+
+   </view>
+   <view class="hr"></view>
+   <view class="item">
+
+      <view class="itemName">
+         Generate Studentbeans Code
+      </view>
+
+   </view>
+   <view class="hr"></view>
+
+</view>

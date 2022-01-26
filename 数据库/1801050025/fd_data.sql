@@ -1,0 +1,4 @@
+INSERT INTO `fd_data`(`fdid`, `fdmc`, `fddz`, `fdpf`, `fdpl`, `fdtp`, `fdpj`, `fdhfl`, `fdsj`, `fysl`, `fymc`) VALUES (1, 'Coco', '成都', 4.8, '385', '001.jpg', '超赞房东', '100%', '1', '4', '九眼桥太古里高层LOFT超美江景公寓/近地铁站/巨幕投影');
+INSERT INTO `fd_data`(`fdid`, `fdmc`, `fddz`, `fdpf`, `fdpl`, `fdtp`, `fdpj`, `fdhfl`, `fdsj`, `fysl`, `fymc`) VALUES (2, 'Tatiya', '曼谷等13座城市', 4.9, '945', '002.jpg', '超赞房东', '80%', '2', '4', 'MJ Guesthouse 大阪民宿 405号公寓 大坪数高质感公寓');
+INSERT INTO `fd_data`(`fdid`, `fdmc`, `fddz`, `fdpf`, `fdpl`, `fdtp`, `fdpj`, `fdhfl`, `fdsj`, `fysl`, `fymc`) VALUES (3, 'For You', '青岛', 4.9, '3603', '003.jpg', '优秀房东', '96%', '3', '4', '【旧时】【市中心江边Loft】【解放公园】【双地铁口】');
+INSERT INTO `fd_data`(`fdid`, `fdmc`, `fddz`, `fdpf`, `fdpl`, `fdtp`, `fdpj`, `fdhfl`, `fdsj`, `fysl`, `fymc`) VALUES (4, 'Makoto', '东大阪市', 4.9, '756', '004.jpg', '超赞房东', '100%', '4', '4', '【灰色空间】环高空夜景｜大屏高清投影｜北欧温馨亲子房');

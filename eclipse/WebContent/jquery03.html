@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").slideToggle();
+  });
+  $("p").dblclick(function(){
+    $("button").click();
+  });
+});
+</script>
+</head>
+<body>
+<button>点击这里进行切换</button>
+<p>双击本段落会触发上面这个按钮的 click 事件。</p>
+</body>
+</html>
+

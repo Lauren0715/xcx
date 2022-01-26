@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("input").keydown(function(){
+    $("input").css("background-color","#FFFFCC");
+  });
+  $("input").keyup(function(){
+    $("input").css("background-color","#D6D6FF");
+  });
+});
+</script>
+</head>
+<body>
+输入你的名字: <input type="text" />
+<p>当发生 keydown 和 keyup 事件时，输入域会改变颜色。请试着在其中输入内容。</p>
+</body>
+</html>
+

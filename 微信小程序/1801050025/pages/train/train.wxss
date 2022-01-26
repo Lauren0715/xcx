@@ -1,0 +1,270 @@
+
+.navbg{
+    width: 100%;
+    background-color: #ffffff;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.item{
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+.menu{
+    font-weight: 500;
+    font-size: 14px;
+    width:100px;
+    color: #504f50;
+}
+.abox
+{
+display: flex;
+width: 90%;
+margin-left:20px;
+flex-direction: column;
+}
+.box1
+{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px;
+    margin-top:10px;
+
+}
+.p image
+{
+    display: flex;
+    width:20px;
+    height: 20px;
+    margin-top: 2px;
+  
+    
+}
+.hr
+{
+    width: 90%;
+  height: 1px;
+  background-color: #e9e8e8e5;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.w
+{
+    font-size: 19px;
+    margin-left: 10px;
+    color:rgb(63, 62, 62) ;
+}
+.w2
+{
+    font-size: 19px;
+    margin-left: 10px;
+    color:#918f8f ;
+}
+.search
+{
+    width: 80%;
+    height: 50px;
+    background-color: #fc888a;
+    margin-left: 40px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.search text
+{
+   display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.item1{
+    width: 25%;
+    text-align: center;
+    margin-top: -7px;
+}
+.continue
+{
+    width: 90%;
+    margin: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    color:#504f50;
+}
+.scroll_box{
+    width: 100%;
+    overflow: hidden;
+    padding: 20rpx;
+    background: #fff;
+    white-space: nowrap;
+    
+    }
+    .scroll_box scroll-view{
+      width: auto;
+      overflow:hidden;
+    }
+    .item_list
+    {
+    width: 40%;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #504f50;
+   
+    }
+ 
+    .fyjg
+    {
+        font-size: 14px;
+        color: #504f50;
+        font-weight: 300;
+    }
+.fymc text
+{
+    width: 40%;
+    display: flex;
+    font-weight: 500;
+
+}
+.fytp image
+{
+    width:100%;
+    height: 115px;
+    border-radius: 2px;
+}
+.kuanian
+{
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    color:#504f50;
+}
+.pingzhi
+{
+    width: 90%;
+    margin-left : 40px;
+    font-size: 14px;
+    color:#504f50;
+    font-weight: 300;
+}
+.scroll_box1{
+    width: 100%;
+    overflow: hidden;
+    padding: 20rpx;
+    background: #fff;
+    white-space: nowrap;
+    
+    }
+    .scroll_box1 scroll-view{
+      width: auto;
+      overflow:hidden;
+    }
+    .item_list1
+    {
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #ffffff;
+    font-weight: 300;
+    border-radius: 4px;
+    font-size: 13px;
+    box-shadow: 2px 3px 13px #d8d9dbb4;
+    }
+ 
+  .item_list1 text
+  {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(131, 129, 129);
+    font-weight: 500;
+    
+  }
+
+  .item_list2
+  {
+    margin-top: 10px;
+  width: 60px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 30px;
+  background-color: #ff9fa0;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 13px;
+  box-shadow: 2px 3px 13px #ff9fa18e;
+  }
+  .item_list2 text
+  {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+  }
+  .bigbox
+  {
+      display: flex;
+      flex-direction:column;
+      width:90%;
+      margin: 20px;
+  }
+  .line1
+  {
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .a
+  {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    
+  }
+ .a1 image
+  {
+      width:95%;
+      height:100px;
+      border-radius: 2px;
+
+  }
+  .a2
+  {
+      display: flex;
+      width: 100%;
+      color: #504f50;
+
+  }
+  .a3
+  {
+    display: flex;
+    width: 100%;
+    color: #504f50;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+

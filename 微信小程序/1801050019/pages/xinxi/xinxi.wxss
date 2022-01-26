@@ -1,0 +1,42 @@
+.con{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  margin:auto;
+}
+.box{
+  width:90%;
+  display:flex;
+  flex-direction: row;
+  margin:20px auto ;
+}
+.right{
+  width:70%;
+  margin-left: 6%;
+  text-align: right;
+  color:rgb(77, 77, 77);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  font-weight: 300;
+  
+}
+.left{
+  margin-bottom: 10px;
+  width:18%;
+  color: #e27171;
+  font-size: 18px;
+}
+.detail
+{
+  width:90%;
+  margin:30px auto ;
+  font-weight: 300;
+  text-indent:2em；
+}
+
+.btn{
+  width: 90%;
+  margin-top:20px;
+  color: #ffffff;
+  background-color:#e27171b2;
+
+}

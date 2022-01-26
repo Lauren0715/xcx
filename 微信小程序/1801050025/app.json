@@ -1,0 +1,67 @@
+{
+  "pages": [ 
+ "pages/train/train",
+  "pages/airplane/airplane",
+
+    
+"pages/fd_info/fd_info",
+     "pages/fangong/fangong",
+   "pages/pingjia/pingjia",
+      
+   "pages/fy_info/fy_info",
+    
+    
+    "pages/bus/bus",
+    "pages/mycenter/mycenter",
+    "pages/trainList/trainList",
+    "pages/grabticket/grabticket"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智行12306",
+    "navigationBarTextStyle": "black"
+  },
+
+
+
+  "tabBar": {
+    "selectedColor": "#e8989a",
+    "backgroundColor": "#fffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/train/train",
+        "text": "首页",
+        "iconPath": "images/bar/xing-2.png",
+        "selectedIconPath": "images/bar/xing.png"
+      },
+      {
+        "pagePath": "pages/airplane/airplane",
+        "text": "收藏",
+        "iconPath": "images/bar/xin-2.png",
+        "selectedIconPath": "images/bar/xin.png"
+
+      },
+      {
+        "pagePath": "pages/bus/bus",
+        "text": "消息",
+        "iconPath": "images/bar/xiaoxi-2.png",
+        "selectedIconPath": "images/bar/xiaoxi.png"
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "text": "我的",
+        "iconPath": "images/bar/yonghu-2.png",
+        "selectedIconPath": "images/bar/yonghu.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

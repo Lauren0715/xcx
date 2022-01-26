@@ -1,0 +1,32 @@
+<!--pages/airplane/airplane.wxml-->
+<view class="a">
+       <view class="fangdong">
+              <view class="btn">
+                <navigator url="../../pages/fangong/fangong" >
+                   <image src="../../images/shoucang/fangdong.png"></image><text>房东</text>
+                </navigator>
+              </view>
+        </view>
+   <view class="fangyuan"><text>16个可订房源</text></view>
+</view>  
+<view class="b">
+<view wx:for="{{list_data}}"  wx:key="fylist" >     
+        <view  class='list-content'>
+          
+          <navigator url="/pages/fy_info/fy_info?FYMC={{item.FYMC}}">  
+        <view class="tupian"><image src='http://localhost:8080/WEBPRO_18/p/{{item.FYTP}}'></image></view>
+      </navigator>  
+        <view class="box1">
+        <view  class='dizhi'><text>{{item.FYDZ}}</text></view>
+        <view  class='mingcheng'><text>{{item.FYMC}}</text></view>   
+        <view class='jiage'><text>¥{{item.FYJG}}</text></view>
+        <view class='meiwan'><text>每晚</text></view> 
+        <view class='pingfen'><text>{{item.FYPF}}</text></view>
+        <view class='xing'><image src="../../images/shoucang/xingxing.png"></image></view>   
+        </view>
+        </view>      
+       <view class="hr"></view>
+</view>
+</view>
+
+       

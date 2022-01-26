@@ -1,0 +1,28 @@
+<view class="con">
+  <navigator url="../../pages/yinsi/yinsi"><view class="box">
+    <view class="title">隐私政策</view>
+    <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view></navigator>
+  <view class="box">
+    <view class="title">服务条款</view>
+    <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view>
+  <view class="box">
+    <view class="title">非歧视政策</view>
+    <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view>
+  <view class="box">
+    <view class="title">支付服务条款</view>
+    <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view>
+  <view class="box">
+    <view class="title">营业执照</view>
+    <view class="img"><image src="../../images/icon/grzx/qianwang.png" style="width:30px;height:30px"></image></view>
+  </view>
+  <view class="nonsense">
+    <view class="up">监督我们</view>
+    <view class="detail">Tohome关注和保障每一位用户的权益。如您对我们的政策条款或服务存在疑虑，或不甚满意，请通过以下方式向我们举报或投诉。</view>
+    <view class="number"> <text decode="{{true}}" space="{{true}}">电话&emsp;+400-110-1234</text></view>
+  </view>
+</view>
+

@@ -1,0 +1,47 @@
+.title{
+  width:80%;
+  margin: 10px auto;
+  font-size: 13px;
+  height:20px;
+  color: #707070;
+  font-weight: 300;
+
+}
+.text{
+  width:80%;
+  margin: auto;
+  font-size: 18px;
+  height:30px;
+ 
+}
+.phone{
+  width: 80%;
+  height: 30px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+/* .btn{
+  width: 80%;
+  margin-top:40px;
+  color: ivory;
+  background-color: #e8989a;
+  border-radius: 20px;
+} */
+.hr{
+  height: 1px;
+  background-color:#707070;
+  opacity: 0.4;
+  width: 80%;
+  margin: auto;
+}
+
+.btn{
+  width: 80%;
+  margin-top:40px;
+  color: white;
+  background-color: #e27171;
+  border-radius: 50px;
+}
+.btn::after{
+  border:0px
+}

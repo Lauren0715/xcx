@@ -1,0 +1,184 @@
+/* pages/airplane/airplane.wxss */
+.a
+{
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  margin-top: -300px;
+}
+.b
+{
+  margin-top: 300px;
+}
+.fangdong
+{display: flex;
+  width:170px;
+  height: 170px;
+ margin-top: 40px;
+ margin-left: 120px;
+ border-radius: 50%;
+ background-color:#f5a5a6 ;
+ box-shadow: 10px 6px 10px rgb(255, 212, 204);
+}
+.btn{
+width:140px;
+height: 140px;
+background-color: rgb(253, 224, 224);
+margin-top: 0px;
+margin-left: -10px;
+align-items:center;
+border-radius: 50%;
+display: flex;
+
+}
+.btn image
+{
+  width:40px;
+  height: 40px;
+  margin-left:10px ;
+  margin-top: -15px;
+  display: flex;
+}
+.btn text{
+ width: 80px;
+ height: 10px;
+font-size:18px;
+margin-top: -30px;
+margin-left: 60px;
+display: flex;
+color: #362d0a;
+
+}
+
+ .fangyuan
+ {
+  letter-spacing:2px;
+  font-size: 18px;
+  display: flex;
+  margin-top: 40px;
+  margin-left:20px;
+ 
+ 
+ }
+ .list-content{
+   width: 90%;
+   margin:auto;
+   margin-top: 10px;
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+ .tupian image{
+   
+   height:100px ;
+   display: inline-block;
+   border-radius: 8px;
+   
+   
+ }
+ .tupian{
+  display: flex;
+   margin-left: 0px;
+   
+   width:140px;
+   border-radius: 10px;
+  
+
+ }
+ .box1{
+   width:70%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 0px;
+ }
+ .dizhi
+ {
+   width:90%;
+   height: 20px;
+   font-weight: 400;
+   font-size: 14px;
+   color: #4d410f;
+   display: flex;
+   margin-top: 10px;
+   
+ }
+ .mingcheng
+ {
+  width:90%;
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+   display: flex;
+   font-weight: 300;
+   margin-top:5px;
+   height: auto;
+ }
+ .jiage
+ {
+   width:90%;
+   height: 20px;
+   font-size: 14px;
+   color: rgb(0, 0, 0);
+   display: flex;
+   margin-top: 15px;
+   font-weight: 500;
+ }
+ .meiwan
+ {
+  font-weight: 300;
+  height: 20px;
+   font-size: 13px;
+   color: rgb(65, 64, 64);
+   display: flex;
+   margin-top: -19px;
+   margin-left: -110px; 
+ }
+ .pingfen
+ {
+  width:10%;
+  height: 20px;
+   font-size: 13px;
+   color: rgb(0, 0, 0);
+   display: flex;
+   margin-top: -20px;
+   margin-left: -40px;
+   font-weight: 500;
+   color: #df5d5f;
+ }
+ .xing image
+{
+  display: flex;
+  width:10px;
+  height:10px ;
+  margin-top: -16px;
+  margin-left: -10px;
+}
+ .hr{
+   display: flex;
+  height: 2px;
+  background-color:#63616123;
+  opacity: 1;
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.id{
+  display: flex;
+  width:50px;
+  height:10px ;
+  margin-left: 20px;
+  margin-top: 10px;
+ font-family:Tahoma,Geneva,sans-serif;
+ color: #fff;
+ font-weight: 500;
+}
+.list-box{
+  width: 100%;
+  display:flex;
+  background-color: #b38851;
+  height:135px;
+  margin:auto;
+}

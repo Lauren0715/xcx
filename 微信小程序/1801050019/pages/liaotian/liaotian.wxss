@@ -1,0 +1,127 @@
+.fix{
+  position: fixed;
+  top:0;
+  width:90%;
+  margin:0 5%;
+  height:10%;
+
+  display: flex;
+  flex-direction: row;
+background-color: white;
+  border-bottom: 1px solid rgb(214, 214, 214);
+
+}
+.room{
+  width:25%;
+ 
+  margin:auto;
+}
+.box2{
+  margin:10px 5%;
+  width:40%;
+  height:67px;
+  
+  font-weight: 300;
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;/*设置 需要显示的行数*/
+
+}
+.book{
+  width:25%;
+  background-color: #e27171;
+  text-align: center;
+  color:white;
+  height:32px;
+  border-radius: 10px;
+  padding-top: 8px;
+  margin:auto;
+}
+.con{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  margin:auto;
+}
+.rbox{
+ margin-top:20px;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.lbox{
+ margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.rtext{
+  background-color: rgb(238, 238, 238);
+margin: auto;
+  margin-right: 20px;
+ font-weight: 300;
+ font-size: 16px;
+ padding:5px 10px;
+ border-radius: 15px;
+
+ /* e27171 */
+}
+.ltext{
+  background-color: rgb(238, 238, 238);
+  margin: auto;
+  margin-left: 20px;
+ font-weight: 300;
+ font-size: 16px;
+ padding:5px 10px;
+border-radius: 15px;
+
+}
+.head{
+  margin:auto 0;
+}
+.fix2{
+  background-color: white;
+  position: fixed;
+  bottom:0;
+  width:90%;
+  margin: 0 5%;
+  margin-top: 10px;
+  height:10%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(219, 219, 219);
+
+}
+.box{
+  margin-top: 15px;
+  width:100%;
+border-radius: 10px;
+border:1px solid rgb(194, 194, 194);
+height:50px;
+
+display: flex;
+flex-direction: row;
+
+}
+.word{
+  
+  width:72%;
+  padding:0 7%;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 300;
+
+ 
+}
+.tupian{
+
+width:14%;
+margin-top: 10px;
+}
+
+
+

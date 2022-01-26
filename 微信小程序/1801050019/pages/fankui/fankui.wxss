@@ -1,0 +1,61 @@
+.con{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+
+ 
+}
+.title{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top:20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+ 
+  margin-bottom: 20px;
+}
+
+.left{
+  padding:20px auto;
+  width:80%;
+  
+}
+.tips{
+  font-size: 14px;
+  color:gray;
+ margin-top:10px;
+  
+  
+}
+.img{
+  width:15%;
+  padding-left:5%;
+  padding-top:35px;
+  
+}
+.hr{
+  height: 1px;
+  color:rgb(0, 0, 0);
+ 
+  width: 100%;
+}
+.name{
+  margin-top:20px;
+  font-size: 18px;
+}
+
+.type{
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8989a;
+ 
+
+}
+.gap{
+  height:50px;
+}

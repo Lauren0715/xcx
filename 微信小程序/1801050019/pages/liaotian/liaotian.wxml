@@ -1,0 +1,62 @@
+<!--pages/liaotian/liaotian.wxml-->
+<view class="fix">
+  <view class="room"><image src='../../images/icon/message/room1.jpg' style="height:60px;width:90px"></image></view>
+  <view class="box2">【skullpanda】CBD天河区K1/兴盛路/广州塔附近/投影/珠江新城公寓【浴缸】每客消毒</view>
+  <view class="book">预定</view>
+
+</view>
+
+<view class="con">
+  <view > <text decode="{{true}}" space="{{true}}">\n\n\n\n</text></view>
+    <view class="rbox">
+    <view class="head"><image src="../../images/icon/message/me.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="rtext">你好，请问在吗</view>
+  </view>
+  <view class="lbox">
+   <view class="head"><image src="../../images/icon/message/1.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="ltext">在的，请问有什么可以帮到您呢</view>
+  </view>
+  <view class="rbox">
+    <view class="head"><image src="../../images/icon/message/me.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="rtext">我想问问这个房子是不是位于市中心，因为第一次来广州，希望住的方便一些，有多点时间去玩。</view>
+  </view>
+  <view class="lbox">
+   <view class="head"><image src="../../images/icon/message/1.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="ltext">是的，这个房子离广州著名商区非常近，你可以看看tohome自带的地图导航，你会发现附近有k11，花城广场，你甚至可以步行抵达。</view>
+  </view>
+  <view class="rbox">
+    <view class="head"><image src="../../images/icon/message/me.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="rtext">请问这个房子最多可以住多少个人呢</view>
+  </view>
+  <view class="lbox">
+   <view class="head"><image src="../../images/icon/message/1.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="ltext">这个房子只有一个卧室，可以住两位房客。房内还有厨房、阳台等，你可以使用厨房内的所有厨具和调味品。晚上在阳台，你还可以观赏到广州繁华夜景。</view>
+  </view>
+  <view class="rbox">
+    <view class="head"><image src="../../images/icon/message/me.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="rtext">好的，谢谢。刚好是准备和一个朋友一起住。我对这个房子很满意，我先去问问我朋友的意见。</view>
+  </view>
+  <view class="rbox">
+    <view class="head"><image src="../../images/icon/message/me.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="rtext">请问跨年就是31号晚上是还可以预定吗</view>
+  </view>
+  <view class="lbox">
+   <view class="head"><image src="../../images/icon/message/1.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="ltext">那一天是可以的哦</view>
+  </view>
+  <view class="lbox">
+   <view class="head"><image src="../../images/icon/message/1.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="ltext">好的。请尽量快点决定哦，因为跨年夜一般比较多人出行～</view>
+  </view>
+  <view class="rbox">
+    <view class="head"><image src="../../images/icon/message/me.jpg" style="width:55px;height:55px;border-radius:50%"></image></view>
+    <view class="rtext">好哦！</view>
+  </view>
+  <view > <text decode="{{true}}" space="{{true}}">\n\n\n\n</text></view>
+</view>
+<view class="fix2">
+  <view class="box">
+    <view class="word"><input name="word" bindinput="accountInput" placeholder="请输入内容" placeholder-style="font-weight:300"/></view>
+    <view class="tupian"><image src="../../images/icon/message/send.png" style="width:30px;height:30px;" ></image></view>
+  </view>
+</view>

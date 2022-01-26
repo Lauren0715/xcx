@@ -1,0 +1,16 @@
+<!--pages/fangdong/fangong.wxml-->
+<view class="shuliang"><text>共4个房东</text></view>
+<view class="beijing" wx:for="{{list_data}}"  wx:key="fdlist">
+  <navigator url="/pages/fd_info/fd_info?FDMC={{item.FDMC}}">
+  <view class="box" >
+    <view class="detail">
+      <view class="mingcheng"><text>{{item.FDMC}}</text>的房东主页</view>
+      <view class="dizhi"><text>房源位于{{item.FDDZ}}</text></view>
+      <view class="pingfen"><text>{{item.FDPF}}分</text></view>
+      <view class="pinglun"><text>{{item.FDPL}} 条房客评价</text></view>
+    </view>
+    <view class="tupian"><image src='http://localhost:8080/WEBPRO_18/tp/{{item.FDTP}}'></image></view>
+  </view>
+</navigator>
+  <view class="hr"></view>
+</view>

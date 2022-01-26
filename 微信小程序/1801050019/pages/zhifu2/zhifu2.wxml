@@ -1,0 +1,65 @@
+<!--pages/zhifu/zhifu.wxml-->
+
+<view class="con">
+  <view class="box">
+    <view class="name">{{list.address}}</view>
+    <view class="tupian">
+      <image src='../../images/icon/grzx/dingdan/{{list.tupian}}.JPG' style="height:100px;width:130px;border-radius:10px"></image>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="time">
+      <view class="top">预定日期</view>
+      <view class="bottom">{{list.time}}</view>
+    </view>
+    <view class="people">
+      <view class="top">房客人数</view>
+      <view class="bottom">{{list.people}}位</view>
+    </view>
+  </view>
+</view>
+<view class="line"></view>
+<view class="box3">
+  <view class="title">房客信息</view>
+      <view class="bot">
+         <view class="discribe">{{list.booker}}</view>
+    
+    <view class="number">{{list.num}}</view>
+
+  </view>
+
+</view>
+<view class="line"></view>
+<view class="box3">
+  <view class="title">商务出行</view>
+  <view class="bot">
+    <view class="detail">
+      若你需要发票，请选择「商务出行」，退房后平台将自动为您开具发票
+    </view>
+    <view class="switch">
+      <switch checked="{{switch1Checked}}" bindchange="switch1Change" />
+    </view>
+  </view>
+</view>
+<view class="line"></view>
+<view class="box3">
+  <view class="up">入住需知</view>
+  <view class="down">是适合婴幼儿及儿童</view>
+  <view class="up">取消政策</view>
+  <view class="down2">预定一周前可免费取消；预定三天前可退款百分之五十；其余情况恕不退款</view>
+</view>
+<view class="line"></view>
+<view class="notice">选择一下按钮即代表我同意房屋守则，安全披露，取消政策，爱彼迎的社交距离准则和其他新馆肺炎疫情相关准则，和房客退款政策。我也同意支付一下所示的总金额。</view>
+
+
+<!-- 底部固定 -->
+<view class="fixed" style="position:fixed;bottom:0;width:100%">
+    <view class="boxl">总价  ¥666</view>
+    <view class="boxr">
+      <view class="img2">
+        <image src="../../images/icon/grzx/dingdan/zhifu.png" style="width:26px;height:26px"></image>
+      </view>
+      <view class="zhifu">微信支付</view>
+    </view>
+</view>
+<view class="zhanwei"> <text decode="{{true}}" space="{{true}}">\n\n\n\n\n</text></view>

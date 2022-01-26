@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript">
+x=0;
+$(document).ready(function(){
+$(window).resize(function() {
+  $("span").text(x+=1);
+});
+
+});
+</script>
+</head>
+<body>
+<p>窗口大小被调整过 <span>0</span> 次。</p>
+<p>请试着重新调整浏览器窗口的大小。</p>
+</body>
+</html>
+
